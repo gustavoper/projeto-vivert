@@ -46,7 +46,7 @@ body
 	line-height: 32px;
 	font-weight: 300;
 	color: #999;
-	background: #FFF;
+	background: #000;
 	
 	text-rendering: optimizeLegibility;
 	vertical-align: baseline;
@@ -66,7 +66,7 @@ body
 
 a
 {
-	color: #16A085;
+	color: #ffcc04;
 	text-decoration: none;
 }
 
@@ -122,12 +122,12 @@ h1, h2, h3
 
 .colour1
 {
-	background: #16A085;
+	background: #ffcc04;
 }
 
 .colour2
 {
-	background: #1ABC9C;
+	background: #ffcc04;
 }
 
 .colour3
@@ -162,9 +162,22 @@ h1, h2, h3
 	
 		.arrow-white:after
 		{
-			border-color: #FFF rgba(255,255,255,0) rgba(255,255,255,0) rgba(255,255,255,0); /** Using RGB to remove dark line in Firefox **/
+			border-color: #fff rgba(255,255,255,0) rgba(255,255,255,0) rgba(255,255,255,0); /** Using RGB to remove dark line in Firefox **/
 		}
 		
+	
+		.arrow-black:after
+		{
+			border-color: #000 rgba(0,0,0,0) rgba(0,0,0,0) rgba(0,0,0,0); /** Using RGB to remove dark line in Firefox **/
+		}
+
+
+		.arrow-yellow:after
+		{
+			border-color: #ffcc04 rgb(256,204,4) rgb(256,204,4) rgb(256,204,4); /** Using RGB to remove dark line in Firefox **/
+		}
+
+
 		.arrow-theme:after
 		{
 			border-color: #16A085 rgba(22,160,133,0) rgba(22,160,133,0) rgba(22,160,133,0);
@@ -199,10 +212,7 @@ h1, h2, h3
 		text-align: center;
 	}
 	
-#topcontainer
-{
 
-}
 
 	#topcontainer h1
 	{
@@ -219,12 +229,13 @@ h1, h2, h3
 			line-height: 70px;
 			letter-spacing: -1.4px;
 			font-weight: 300;
+			color: #fff;
 		}
 
 	#topcontainer p
 	{
 		margin-bottom: 0;
-		color: #999;
+		color: #fff;
 	}
 
 	#topcontainer p span
@@ -275,7 +286,7 @@ h1, h2, h3
 		
 #maincont
 {
-	color: #FFF;
+	color: #000;
 }
 
 	#maincont a
@@ -441,7 +452,7 @@ h1, h2, h3
 		
 			#footercont p.backtotop a:hover
 			{
-				background-color: #1ABC9C;
+				background-color: #ffcc04;
 				color: #FFF;
 				text-decoration: none;
 			}
