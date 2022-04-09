@@ -54,13 +54,13 @@ body
 
 ::selection
 {
-	background: #149077;
+	background: #ffcc04;
 	color: #FFF;
 }
 
 ::-moz-selection
 {
-	background: #149077;
+	background: #ffcc04;
 	color: #FFF;
 }
 
@@ -174,18 +174,18 @@ h1, h2, h3
 
 		.arrow-yellow:after
 		{
-			border-color: #ffcc04 rgb(256,204,4) rgb(256,204,4) rgb(256,204,4); /** Using RGB to remove dark line in Firefox **/
+			border-color: #ffcc04 rgb(0,0,0,0) rgb(0,0,0) rgb(0,0,0,0); /** Using RGB to remove dark line in Firefox **/
 		}
 
 
 		.arrow-theme:after
 		{
-			border-color: #16A085 rgba(22,160,133,0) rgba(22,160,133,0) rgba(22,160,133,0);
+			border-color: #ffcc04 rgba(22,160,133,0) rgba(22,160,133,0) rgba(22,160,133,0);
 		}
 		
 		.arrow-themelight:after
 		{
-			border-color: #1ABC9C rgba(26,188,156,0) rgba(26,188,156,0) rgba(26,188,156,0);
+			border-color: #ffcc04 rgba(26,188,156,0) rgba(26,188,156,0) rgba(26,188,156,0);
 		}
 
 		.arrow-grey:after
@@ -398,7 +398,7 @@ h1, h2, h3
 		#quotecont .owl-theme .owl-controls .owl-page.active span,
 		#quotecont .owl-theme .owl-controls.clickable .owl-page:hover span
 		{
-			background: #1ABC9C;
+			background: #ffcc04;
 		}
 
 #footercont
